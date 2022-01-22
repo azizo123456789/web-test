@@ -1,0 +1,53 @@
+*,
+*::before
+*::after{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    padding: 32px;
+}
+nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+}
+.logo{
+    font-size: 22px;
+    font-weight: 900;
+    color: #262626;
+}
+.header-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-right: auto;
+}
+.header-items-item{
+    color: #888484;
+    font-weight: 500;
+    font-size: 15px;
+}
+.btn{
+    border: none;
+    font-size: 15px;
+    padding: 15px 20px;
+    border-radius: 9999px;
+    background-color: transparent;
+    font-weight: 500;
+    color: #888484;
+}
+.btn-primary{
+    background-color: rgb(69, 226, 210);
+    color: white;
+}
